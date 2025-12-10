@@ -53,20 +53,26 @@ cd cveo
 
 ### 3. Configuración del Backend
 
+```bash
 cd backend
 npm install
+```
 
 ### Crea un archivo .env en la carpeta backend con tus credenciales de base de datos:
 
+```bash
 PORT=3000
 DB_HOST=localhost
 DB_USER=root
 DB_PASS=tu_password
 DB_NAME=cveo_db
+```
 
 ### Ejecuta el servidor:
 
+```bash
 npm run dev
+```
 
 # O si no tienes scripts configurados aún:
 
@@ -76,9 +82,11 @@ npm run dev
 
 En una nueva terminal:
 
+```bash
 cd frontend
 npm install
 npm start
+```
 
 ### 🗄️ Base de Datos
 
